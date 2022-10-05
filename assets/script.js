@@ -61,9 +61,6 @@ function playGame() {
 
 let choices = ['rock', 'paper', 'scissors'];
 
-let scoreBoard = {
-    computer: 0,
-    user: 0
-}
+let scoreBoard = {computer: 0, user: 0}
 
 console.log(playGame());
