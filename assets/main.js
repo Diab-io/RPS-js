@@ -1,4 +1,4 @@
-buttons = document.querySelectorAll('button');
+buttons = document.querySelectorAll('img');
 
 let choices = ['rock', 'paper', 'scissors'];
 let scoreBoard = {computer: 0, user: 0}
