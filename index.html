@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <script src="./assets/main.js" defer></script>
     <title>Rock paper scissors</title>
 </head>
 <body>
-    <h1>Welcome to Rock Paper scissors</h1>
+    <div class="container">
+        <h1><div class="score-board"></div></h1>
 
-    <div class="score-board"></div>
+        <div class="buttons">
+            <img src="./images/stone.png" alt="rock" class="rock"></img>
+            <img src="./images/paper.png" alt="rock" class="paper"></img>
+            <img src="./images/scissors.png" alt="rock" class="scissors"></img>
+        </div>
 
-    <div class="buttons">
-        <button class="rock">Rock</button>
-        <button class="paper">Paper</button>
-        <button class="scissors">Scissors</button>
+        <div class="score-text"></div>
     </div>
-
-    <div class="score-text"></div>
 </body>
 </html>
